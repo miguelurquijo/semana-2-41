@@ -23,7 +23,7 @@
 
 <style scoped>
     .EstiloImagen {
-        border-radius: 0%;
+        border-radius: 10px;
         object-fit: cover;
         width: 100%;
         height: 250PX;
