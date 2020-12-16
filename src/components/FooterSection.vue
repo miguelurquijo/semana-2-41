@@ -12,7 +12,7 @@
                 <div class="col-md-6 mt-md-0 mt-3">
     
                     <!-- Content -->
-                    <p>Repositorio del proyecto</p>
+                    <p><a class="estilosVinvulos" href="https://github.com/miguelurquijo/semana-2-41" target="_blank">Repositorio del proyecto</a></p>
                     <p>Creador: Grupo 41</p>
                     <p>Contacto: grupo41@misiontic.com</p>
     

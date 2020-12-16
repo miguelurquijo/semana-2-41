@@ -122,6 +122,7 @@ export default {
 .estitloTiulo {
   align: center;
 
+}
 
 .borde{
     border-style: solid;
