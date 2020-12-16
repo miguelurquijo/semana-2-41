@@ -39,7 +39,7 @@ import axios from "axios"
         },
         created(){
             axios
-                .get('https://gnews.io/api/v4/top-headlines?&token=dbb79ab882316df3fb72b08552a98dc8&max=10')
+                .get('https://gnews.io/api/v4/top-headlines?&token=d6db0420dc11cc2f84a13823b774edc1&max=10')
                 .then(response => { this.peliculas = response.data.articles.slice(0,4) })
         }
     }

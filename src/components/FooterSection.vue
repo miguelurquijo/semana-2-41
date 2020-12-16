@@ -12,10 +12,9 @@
                 <div class="col-md-6 mt-md-0 mt-3">
     
                     <!-- Content -->
-                    <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae
-                        commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat.
-                        Itaque, culpa?</p>
+                    <p>Repositorio del proyecto</p>
+                    <p>Creador: Grupo 41</p>
+                    <p>Contacto: grupo41@misiontic.com</p>
     
                 </div>
                 <!-- Grid column -->
@@ -26,10 +25,11 @@
                 <div class="col-md-6 mb-md-0 mb-3">
     
                     <!-- Content -->
-                    <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum commodi
-                        aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id excepturi
-                        hic.</p>
+                    <ui>
+                        <li><a class="estilosVinvulos" href="https://www.w3schools.com/"  target="_blank">Politica de privacidad</a></li>
+                        <li><a class="estilosVinvulos" href="https://www.w3schools.com/"  target="_blank">Condiciones de uso</a></li>
+                        <li><a class="estilosVinvulos" href="https://www.w3schools.com/"  target="_blank">Declaracion de accesibilidad</a></li>
+                    </ui>
     
                 </div>
                 <!-- Grid column -->
@@ -41,13 +41,34 @@
         <!-- Footer Text -->
     
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-1 bg-dark">© 2020 Copyright: DAD
+        <div class="footer-copyright text-center py-1 bg-">Copyright ©2020. DavidFender Musical Instruments Corporation. All Rights Reserved.
         </div>
         <!-- Copyright -->
     
     </footer>
 </template>
+<style>
 
+.estilosVinvulos {
+    color: white;
+}
+
+.estilosVinvulos:link {
+  text-decoration: none;
+}
+
+.estilosVinvulos:visited {
+  text-decoration: none;
+}
+
+.estilosVinvulos:hover {
+  text-decoration: underline;
+}
+
+.estilosVinvulos:active {
+  text-decoration: underline;
+}
+</style>
 <script>
     export default {
         name: "FooterSection",

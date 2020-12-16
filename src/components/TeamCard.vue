@@ -1,21 +1,17 @@
 <template>
     <div>
-                <div class="card text-black">
-                    <div class="d-flex justify-content-center p-2">
-                        <img :src="member.image" alt="Foto del Equipo" height="200px" class="EstiloImagen">
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">Codigo: {{member.codigo}}</p>
-                        <h5 class="card-title">{{member.nombre}}</h5>
-                        <p class="card-text">{{member.descripcion}}</p>
-                        <p class="card-text">{{member.rol}}</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+        <div class="card text-black">
+            <div class="d-flex justify-content-center p-2">
+                <img :src="member.image" alt="Foto del Equipo" height="200px" class="EstiloImagen">
+            </div>
+            <div class="card-body">
+                <p class="card-text">Codigo: {{member.codigo}}</p>
+                    <h5 class="card-title">{{member.nombre}}</h5>
+                    <p class="card-text">{{member.descripcion}}</p>
+                    <p class="card-text">{{member.rol}}</p>
                 </div>
-            </div> 
-
+            </div>
+        </div> 
 </template>
 
 <script>
