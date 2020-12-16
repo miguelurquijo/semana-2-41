@@ -1,7 +1,7 @@
 <template>
         <!-- services -->
-    <div class="container-fluid">
-            <div class="row justify-content-center mb-5">
+    <div id="services" class="container-fluid">
+            <div id="services" class="row justify-content-center mb-5">
                 <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
                 
                     <div class="card">

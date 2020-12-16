@@ -3,15 +3,17 @@
     <ImageText/>
     <CarouselSection/>
     <br>
+      <div id="services" class="container-fluid">
         <div class="d-flex justify-content-center align-items-center" >
-          <h2 class="tituloNoticias">TIPOS DE GUITARRAS</h2>
-        </div> 
-        <div class="borde">
-        </div>
-    <ServicesSection/>
+            <h2 class="tituloNoticias">TIPOS DE GUITARRAS</h2>
+          </div> 
+          <div class="borde">
+          </div>
+          <ServicesSection/>
+      </div>    
     <!--News-->
 
-        <div class="container-fluid"> 
+        <div id="news" class="container-fluid"> 
               <div class="d-flex justify-content-center align-items-center" >
                 <h2 class="tituloNoticias">SECCION DE NOTICIAS</h2>
               </div>  
