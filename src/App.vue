@@ -4,21 +4,30 @@
       <ImageText/>
     </nav>
     <CarouselSection/>
-    <ServicesSection/>
+    <br>
+      <div id="services" class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center" >
+            <h2 class="tituloNoticias">TIPOS DE GUITARRAS</h2>
+          </div> 
+          <div class="borde">
+          </div>
+          <ServicesSection/>
+      </div>    
     <!--News-->
 
-        <div class="container-fluid" id="news"> 
+
+        <div id="news" class="container-fluid"> 
               <div class="d-flex justify-content-center align-items-center" >
-                <h2 class="tituloNoticias">Seccion de Noticias</h2>
+                <h2 class="tituloNoticias">SECCION DE NOTICIAS</h2>
               </div>  
+              <div class="borde">
+              </div>
                      
               <NewsSection></NewsSection>         
         </div>
-        
-
     <!--Team-->
     <div class="container-fluid" id="team">
-      <div class="borde">
+      <div class="bordeEquipo">
         <h2 class="estitloTiulo">EQUIPO 41</h2>
       </div>
         <div class="row justify-content-center mb-5">
@@ -97,8 +106,9 @@ export default {
 
 </script>
 
-<style>
-.borde{
+
+<style  scoped>
+.bordeEquipo{
     border-style: solid;
     border-width: 0px 0px 2px 0px;
     margin-right: 60px;
@@ -111,6 +121,15 @@ export default {
 
 .estitloTiulo {
   align: center;
+
+
+.borde{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-color:black;
+
 }
 </style>
 
