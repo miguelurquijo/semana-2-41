@@ -2,18 +2,24 @@
   <div id="app">
     <ImageText/>
     <CarouselSection/>
+    <br>
+        <div class="d-flex justify-content-center align-items-center" >
+          <h2 class="tituloNoticias">TIPOS DE GUITARRAS</h2>
+        </div> 
+        <div class="borde">
+        </div>
     <ServicesSection/>
     <!--News-->
 
         <div class="container-fluid"> 
               <div class="d-flex justify-content-center align-items-center" >
-                <h2 class="tituloNoticias">Seccion de Noticias</h2>
+                <h2 class="tituloNoticias">SECCION DE NOTICIAS</h2>
               </div>  
+              <div class="borde">
+              </div>
                      
               <NewsSection></NewsSection>         
         </div>
-        
-
     <!--Team-->
     <div class="container-fluid">
         <div class="row justify-content-center mb-5">
@@ -53,6 +59,16 @@ export default {
   }
 }
 </script>
+
+<style  scoped>
+.borde{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-color:black;
+}
+</style>
 
 
 

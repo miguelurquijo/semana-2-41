@@ -5,18 +5,15 @@
                     <div class="d-flex justify-content-center align-items-center">
                         
                         <div class="p-3">
-                            <img class="imagenNews" :src="pelicula.image" alt="" width="300em" height="300em" style="border-radius: 10px">
+                            <img class="imagenNews" :src="pelicula.image" alt="" width="350em" height="300em" style="border-radius: 10px">
                         </div>
         
                         <div class="p-2">
                             <h4>{{pelicula.title}}</h4>
-                            <h6>{{pelicula.description}}</h6>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ratione harum voluptates nulla laudantium! Aut, 
-                                possimus. Expedita unde maiores reprehenderit, quibusdam blanditiis beatae doloremque? Corporis laudantium veritatis omnis accusantium error.
+                                {{pelicula.description}}
                             </p>
-                        </div>
-        
+                        </div>       
                     </div>
                     <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
                         <button  type="button" @click="pelicula.url" target="_blank" class="btn btn-outline-info"> Info</button>
