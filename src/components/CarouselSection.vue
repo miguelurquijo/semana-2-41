@@ -8,30 +8,21 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
-                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title>
-                        <rect
-                            width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+                    <img src="https://i.ibb.co/pdcyNYm/2Ovcka3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h5>Ultimo modelo de David Fender X600</h5>
+                        <p>El 31 de diciembre saldra a la venta la ueva X600 de David Fender</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
-                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title>
-                        <rect
-                            width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+                    <img src="https://i.ibb.co/3NCSNLP/82af286ea16f6e2299651ebc986c2af5.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h5>Vetnas de las guitarras David Fender se increentan en Pandemia</h5>
+                        <p>las vetas de David Fender aumentaron un 17% durante la pandemia alcnaznado un total de 700 millones de dolares en ventas.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
-                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title>
-                        <rect
-                            width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+                    <img src="https://i.ibb.co/6vfbVd7/download.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -49,10 +40,18 @@
         </div>
     
 </template>
-
 <script>
+
     export default {
         name: "CarouselSection",
         
-    }
+    };
 </script>
+
+<style>
+.carousel-inner{
+  width:100%;
+  max-height: 600px !important;
+}
+</style>
+

@@ -1,23 +1,22 @@
 <template>
             <!-- Image and text -->
-        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark ">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light ">
             <a class="navbar-brand " href="# ">
-                <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg " width="30 " height="30
-            " class="d-inline-block align-top " alt=" " loading="lazy "> Bootstrap
+                <img src="https://i.ibb.co/pfkMTfY/Logo.png" width="30 " height="30" class="d-inline-block align-top " alt=" " loading="lazy "> GUITARRAS DAVID FENDER
             </a>
             <div class="collapse navbar-collapse justify-content-end " id="navbarNav ">
                 <ul class="navbar-nav ">
                     <li class="nav-item active ">
-                        <a class="nav-link " href="# ">Home <span class="sr-only ">(current)</span></a>
+                        <a class="nav-link " href="#">Inicio <span class="sr-only ">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="# ">Features</a>
+                        <a class="nav-link " href="# ">Servicios</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="# ">Pricing</a>
+                        <a class="nav-link " href="#news">Noticias</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link disabled " href="# " tabindex="-1 " aria-disabled="true ">Disabled</a>
+                        <a class="nav-link " href="#team">Equipo</a>
                     </li>
                 </ul>
             </div>
@@ -30,3 +29,7 @@
         
     }
 </script>
+
+<style>
+
+</style>

@@ -37,6 +37,7 @@ import axios from "axios"
         created(){
             axios
                 .get('https://gnews.io/api/v4/top-headlines?&token=d6db0420dc11cc2f84a13823b774edc1&max=10')
+
                 .then(response => { this.noticias = response.data.articles.slice(0,4) })
         },
               methods:{
